@@ -13,10 +13,22 @@
 
                 <label for="altura">Insira sua altura</label>
                 <input type="text" id="altura" value="" />
-                <h6 id="mensagemImc"></h6>
             </div>
             <div class="divBotoes">
-            <button onclick="calcularImc()">Calcular</button>
+            <button class="realizarCalculo" onclick="calcularImc()">Calcular</button>
             </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalRetonoResultado" style="color: purple;" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title fs-5" id="exampleModalLabel">Seu IMC</h3>
+            </div>
+            <div class="modal-body">
+                <h6 id="mensagemImc"></h6>
+            </div>
+        </div>
     </div>
 </div>
