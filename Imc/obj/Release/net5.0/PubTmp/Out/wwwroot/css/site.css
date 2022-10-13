@@ -58,7 +58,7 @@ input{
     color: white;
     border: none;
     border-radius: 5px;
-    background-color: purple;
+    background-image: linear-gradient(to right, purple, #222222, purple)
 }
 
 /* Provide sufficient contrast against white background */
@@ -95,12 +95,6 @@ html {
   html {
     font-size: 16px;
   }
-}
-
-@media (max-width: 768px){
-    .divImc{
-        width:80%;
-    }
 }
 
 .border-top {
