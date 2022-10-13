@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var resultado = ViewBag.Data;
+}
+
+<div class="divCorpo">
+    <div class="divImc">
+            <div class="informacoesParaCalculo">
+                <p style="font-size: 28pt;">Calcule seu IMC</p>
+
+                <label for="peso" id="lblPeso">Insira seu peso atual</label>
+                <input type="text" id="peso" value="" />
+
+                <label for="altura">Insira sua altura</label>
+                <input type="text" id="altura" value="" />
+                <h6 id="mensagemImc"></h6>
+            </div>
+            <div class="divBotoes">
+            <button onclick="calcularImc()">Calcular</button>
+            </div>
+    </div>
+</div>
